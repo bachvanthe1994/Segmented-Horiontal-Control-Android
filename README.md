@@ -6,6 +6,13 @@ Segmented Horiontal Control Android
 <img src="screen.png" width="320" />
 
 ```java
+
+ArrayList<String> arrItem = new ArrayList<>();
+arrItem.add("Tab 1");
+arrItem.add("Tab 2");
+arrItem.add("Tab 3");
+arrItem.add("Tab 4");
+
 int strokeWidth = (int) getResources().getDimension(R.dimen._1sdp);
 int cornerRadius = (int) getResources().getDimension(R.dimen._5sdp);
 int colorStroke = getResources().getColor(R.color.colorAccent);
